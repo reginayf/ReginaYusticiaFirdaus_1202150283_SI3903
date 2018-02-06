@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nasi Uduk" />
+
+        <TextView
+            android:id="@+id/makanmalam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="Makan Malam" />
+
+        <TextView
+            android:id="@+id/dengan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/harga"
+            android:layout_alignRight="@+id/harga"
+            android:layout_below="@+id/makanmalam"
+            android:layout_marginTop="26dp"
+            android:text="EatBus" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/makanmalam"
+            android:layout_alignStart="@+id/makanmalam"
+            android:layout_below="@+id/dengan2"
+            android:layout_marginTop="40dp"
+            android:text="Menu" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView9"
+            android:layout_alignRight="@+id/textView9"
+            android:layout_below="@+id/editText5"
+            android:layout_marginTop="43dp"
+            android:text="Porsi" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText5"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="Harga" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText6"
+            android:layout_alignRight="@+id/editText6"
+            android:layout_below="@+id/harga"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="100000" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

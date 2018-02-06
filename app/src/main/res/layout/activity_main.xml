@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.mobile.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="569dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/makanmalam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:text="Makan Malam" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/makanmalam"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nasi Uduk" />
+
+        <EditText
+            android:id="@+id/porsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/porsi"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="64dp"
+            android:text="ABNORMAL" />
+
+        <Button
+            android:id="@+id/1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/2"
+            android:layout_alignBottom="@+id/2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:text="EATBUS"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
